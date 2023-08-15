@@ -33,6 +33,7 @@
     - 一个结构体嵌到另一个结构体，称作组合
     - 结构体可以理解为 *JSON Object*
     - 匿名组合是指外层结构体可以直接访问匿名结构体的方法与属性
+    - 借助代码自动生成 UML 类图的库可以更加直观地理解复杂的接口与组合关系 [GoPlantUML V2](https://github.com/jfeliu007/goplantuml)
 ```go
 type Live interface {
 	eat()
